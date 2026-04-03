@@ -1,0 +1,13 @@
+data/raw/expression_raw.csv
+data/raw/methylation_raw.csv
+data/raw/cnv_raw.csv
+data/raw/GDCdata/
+GDCdata/
+df.rds
+results.rds
+MANIFEST.txt
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+models/*.pkl
+models/*.pth
