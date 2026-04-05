@@ -1,0 +1,4 @@
+omics,best_model,cv_accuracy,test_accuracy
+Gene Expression,XGB,0.8922,0.8276
+DNA Methylation,XGB,0.779,0.7517
+CNV,XGB,0.732,0.731
