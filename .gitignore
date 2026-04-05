@@ -1,3 +1,9 @@
+# Ignore large processed data
+data/processed/*.csv
+
+# But keep small metadata if needed
+!data/processed/label_encoder.csv
+!data/processed/labels.csv
 data/raw/expression_raw.csv
 data/raw/methylation_raw.csv
 data/raw/cnv_raw.csv
@@ -13,3 +19,10 @@ models/*.pkl
 models/*.pth
 .RData
 .Rhistory
+data/processed/*.csv
+data/processed/cnv_clean.csv
+data/processed/expression_clean.csv
+data/processed/methylation_pca.csv
+data/processed/cnv_clean.csv
+data/processed/expression_clean.csv
+data/processed/methylation_pca.csv

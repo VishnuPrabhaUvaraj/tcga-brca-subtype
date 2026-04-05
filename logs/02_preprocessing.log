@@ -1,0 +1,45 @@
+=======================================================
+PREPROCESSING v2: Fixed alignment
+=======================================================
+
+Step 1: Loading clinical data...
+Clinical: 1043 patients
+
+Step 2: Loading gene expression...
+Expression: (1095, 5000)
+
+Step 3: Loading methylation...
+Methylation before PCA: (784, 402747)
+Running PCA (500 components)...
+Methylation PCA: (784, 500)
+Variance explained: 90.97%
+
+Step 4: Loading CNV...
+CNV: (1071, 60623)
+
+Step 5: Finding common samples...
+  Clinical index size:    1043
+  Expression index size:  1095
+  Methylation index size: 784
+  CNV index size:         1071
+  Common samples:         724
+
+Step 6: Aligning all datasets...
+All datasets aligned to 724 samples
+
+Classes: ['Basal', 'Her2', 'LumA', 'LumB']
+  Basal: 131
+  Her2: 45
+  LumA: 407
+  LumB: 141
+
+Step 8: Saving processed files...
+
+=======================================================
+PREPROCESSING COMPLETE
+=======================================================
+Expression:  (724, 5000)
+Methylation: (724, 500)
+CNV:         (724, 60623)
+Labels:      724
+Subtype counts: {'LumA': 407, 'LumB': 141, 'Basal': 131, 'Her2': 45}
