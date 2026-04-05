@@ -1,0 +1,6 @@
+strategy,cv_accuracy,test_accuracy
+Early Fusion,0.9005,0.8483
+Late Fusion,0.8482758620689655,0.8482758620689655
+Gene Expression,0.8922,0.8276
+DNA Methylation,0.779,0.7517
+CNV,0.732,0.731
