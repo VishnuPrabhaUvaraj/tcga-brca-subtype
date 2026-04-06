@@ -1,0 +1,41 @@
+=======================================================
+PHASE 5: SHAP + Survival Analysis
+=======================================================
+
+Loading data...
+Samples: 724
+Features: 5000
+
+Looking for saved model...
+Found: ['gene_expression_xgb.pkl']
+Loaded: models/gene_expression_xgb.pkl
+
+Calculating SHAP values (~2 min)...
+SHAP output shape: (145, 5000, 4)
+SHAP output shape: (145, 5000, 4)
+
+Top 10 genes driving subtype prediction:
+   1. ENSG00000280916.2         SHAP=0.2345
+   2. ENSG00000138180.16        SHAP=0.1853
+   3. ENSG00000115648.14        SHAP=0.1673
+   4. ENSG00000142910.16        SHAP=0.1557
+   5. ENSG00000135698.10        SHAP=0.1262
+   6. ENSG00000100219.16        SHAP=0.0999
+   7. ENSG00000065328.17        SHAP=0.0921
+   8. ENSG00000077152.11        SHAP=0.0917
+   9. ENSG00000137975.8         SHAP=0.0876
+  10. ENSG00000120262.10        SHAP=0.0746
+
+Generating Kaplan-Meier survival curves...
+Clinical samples for survival: 1035
+Subtypes: {'LumA': 560, 'LumB': 204, 'Basal': 194, 'Her2': 77}
+Saved: figures/shap_survival.png
+Saved: logs/top_genes_shap.csv
+
+=======================================================
+PHASE 5 COMPLETE
+=======================================================
+Figures saved:
+  figures/shap_survival.png
+Top genes saved:
+  logs/top_genes_shap.csv
