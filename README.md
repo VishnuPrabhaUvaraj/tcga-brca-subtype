@@ -58,4 +58,4 @@ python notebooks/06_shap_survival.py
 ```
 
 ## Author
-Vishnuprabha — MSc Bioinformatics
+Vishnuprabha Uvaraj
